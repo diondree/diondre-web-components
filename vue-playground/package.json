@@ -1,0 +1,19 @@
+{
+  "name": "vue-playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "serve": "vue-cli-service serve src/serve.ts"
+  },
+  "dependencies": {
+    "diondre-web-components-vue": "^1.0.0",
+    "vue": "^2.6.11",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-typescript": "^4.5.4",
+    "@vue/cli-service": "^4.5.4",
+    "typescript": "^3.9.7"
+  }
+}

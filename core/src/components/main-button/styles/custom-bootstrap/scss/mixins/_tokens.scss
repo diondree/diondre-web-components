@@ -1,0 +1,196 @@
+@mixin tokens {
+--aqua-10: #{$aqua-10};
+--aqua-20: #{$aqua-20};
+--aqua-30: #{$aqua-30};
+--aqua-40: #{$aqua-40};
+--aqua-50: #{$aqua-50};
+--aqua-60: #{$aqua-60};
+--aqua-70: #{$aqua-70};
+--aqua-80: #{$aqua-80};
+--aqua-90: #{$aqua-90};
+--aqua-100: #{$aqua-100};
+
+--purple-10: #{$purple-10};
+--purple-20: #{$purple-20};
+--purple-30: #{$purple-30};
+--purple-40: #{$purple-40};
+--purple-50: #{$purple-50};
+--purple-60: #{$purple-60};
+--purple-70: #{$purple-70};
+--purple-80: #{$purple-80};
+--purple-90: #{$purple-90};
+--purple-100: #{$purple-100};
+
+--teal-10: #{$teal-10};
+--teal-20: #{$teal-20};
+--teal-30: #{$teal-30};
+--teal-40: #{$teal-40};
+--teal-50: #{$teal-50};
+--teal-60: #{$teal-60};
+--teal-70: #{$teal-70};
+--teal-80: #{$teal-80};
+--teal-90: #{$teal-90};
+--teal-100: #{$teal-100};
+
+--red-10: #{$red-10};
+--red-20: #{$red-20};
+--red-30: #{$red-30};
+--red-40: #{$red-40};
+--red-50: #{$red-50};
+--red-60: #{$red-60};
+--red-70: #{$red-70};
+--red-80: #{$red-80};
+--red-90: #{$red-90};
+--red-100: #{$red-100};
+
+--gold-10: #{$gold-10};
+--gold-20: #{$gold-20};
+--gold-30: #{$gold-30};
+--gold-40: #{$gold-40};
+--gold-50: #{$gold-50};
+--gold-60: #{$gold-60};
+--gold-70: #{$gold-70};
+--gold-80: #{$gold-80};
+--gold-90: #{$gold-90};
+--gold-100: #{$gold-100};
+
+--green-10: #{$green-10};
+--green-20: #{$green-20};
+--green-30: #{$green-30};
+--green-40: #{$green-40};
+--green-50: #{$green-50};
+--green-60: #{$green-60};
+--green-70: #{$green-70};
+--green-80: #{$green-80};
+--green-90: #{$green-90};
+--green-100: #{$green-100};
+
+--blue-10: #{$blue-10};
+--blue-20: #{$blue-20};
+--blue-30: #{$blue-30};
+--blue-40: #{$blue-40};
+--blue-50: #{$blue-50};
+--blue-60: #{$blue-60};
+--blue-70: #{$blue-70};
+--blue-80: #{$blue-80};
+--blue-90: #{$blue-90};
+--blue-100: #{$blue-100};
+
+--orange-10: #{$orange-10};
+--orange-20: #{$orange-20};
+--orange-30: #{$orange-30};
+--orange-40: #{$orange-40};
+--orange-50: #{$orange-50};
+--orange-60: #{$orange-60};
+--orange-70: #{$orange-70};
+--orange-80: #{$orange-80};
+--orange-90: #{$orange-90};
+--orange-100: #{$orange-100};
+
+--gray-2: #{$gray-2};
+--gray-5: #{$gray-5};
+--gray-10: #{$gray-10};
+--gray-20: #{$gray-20};
+--gray-30: #{$gray-30};
+--gray-40: #{$gray-40};
+--gray-45: #{$gray-45};
+--gray-50: #{$gray-50};
+--gray-60: #{$gray-60};
+--gray-70: #{$gray-70};
+--gray-80: #{$gray-80};
+--gray-90: #{$gray-90};
+--gray-100: #{$gray-100};
+
+--gray-alpha-0: #{$gray-alpha-0};
+--gray-alpha-10: #{$gray-alpha-10};
+--gray-alpha-20: #{$gray-alpha-20};
+--gray-alpha-30: #{$gray-alpha-30};
+--gray-alpha-40: #{$gray-alpha-40};
+--gray-alpha-50: #{$gray-alpha-50};
+--gray-alpha-60: #{$gray-alpha-60};
+--gray-alpha-70: #{$gray-alpha-70};
+--gray-alpha-80: #{$gray-alpha-80};
+--gray-alpha-90: #{$gray-alpha-90};
+
+--black: #{$black};
+--black-alpha-0: #{$black-alpha-0};
+--black-alpha-10: #{$black-alpha-10};
+--black-alpha-20: #{$black-alpha-20};
+--black-alpha-30: #{$black-alpha-30};
+--black-alpha-40: #{$black-alpha-40};
+--black-alpha-50: #{$black-alpha-50};
+--black-alpha-60: #{$black-alpha-60};
+--black-alpha-70: #{$black-alpha-70};
+--black-alpha-80: #{$black-alpha-80};
+--black-alpha-90: #{$black-alpha-90};
+
+--white: #{$white};
+--white-alpha-0: #{$white-alpha-0};
+--white-alpha-10: #{$white-alpha-10};
+--white-alpha-20: #{$white-alpha-20};
+--white-alpha-30: #{$white-alpha-30};
+--white-alpha-40: #{$white-alpha-40};
+--white-alpha-50: #{$white-alpha-50};
+--white-alpha-60: #{$white-alpha-60};
+--white-alpha-70: #{$white-alpha-70};
+--white-alpha-80: #{$white-alpha-80};
+--white-alpha-90: #{$white-alpha-90};
+
+
+  // Font
+  --font-family-heading: #{$font-family-heading};
+  --font-family-text: #{$font-family-text};
+  --font-weight-regular: #{$font-weight-regular};
+  --font-weight-semibold: #{$font-weight-semibold};
+  --font-weight-bold: #{$font-weight-bold};
+
+  // Font Size
+  --font-size-xs: #{$font-size-xs};
+  --font-size-sm: #{$font-size-sm};
+  --font-size-md: #{$font-size-md};
+  --font-size-lg: #{$font-size-lg};
+  --font-size-xl: #{$font-size-xl};
+  --font-size-xxl: #{$font-size-xxl};
+  --font-size-xxxl: #{$font-size-xxxl};
+  --font-size-xxxxl: #{$font-size-xxxxl};
+
+  // Line Height
+  --line-height-xs: #{$line-height-xs};
+  --line-height-sm: #{$line-height-sm};
+  --line-height-md: #{$line-height-md};
+  --line-height-lg: #{$line-height-lg};
+  --line-height-xl: #{$line-height-xl};
+
+  // Size
+  --size-icon-xs: #{$size-icon-xs};
+  --size-icon-sm: #{$size-icon-sm};
+  --size-icon-md: #{$size-icon-md};
+  --size-icon-lg: #{$size-icon-lg};
+  --size-icon-xl: #{$size-icon-xl};
+
+  // Space
+  --spacing-01: #{$spacing-01};
+  --spacing-02: #{$spacing-02};
+  --spacing-03: #{$spacing-03};
+  --spacing-04: #{$spacing-04};
+  --spacing-05: #{$spacing-05};
+  --spacing-06: #{$spacing-06};
+  --spacing-07: #{$spacing-07};
+  --spacing-08: #{$spacing-08};
+  --spacing-09: #{$spacing-09};
+  --spacing-10: #{$spacing-10};
+  --spacing-11: #{$spacing-11};
+  --spacing-12: #{$spacing-12};
+
+  // Border Radius
+  --radius-0: #{$radius-0};
+  --radius-sm: #{$radius-sm};
+  --radius-md: #{$radius-md};
+  --radius-lg: #{$radius-lg};
+
+  // Box Shadow
+  --shadow-card: #{$shadow-card};
+  --shadow-default: #{$shadow-default};
+  --shadow-focus: #{$shadow-focus};
+
+}

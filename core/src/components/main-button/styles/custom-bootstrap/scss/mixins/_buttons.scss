@@ -1,0 +1,57 @@
+@mixin no-outline {
+  &::-moz-focus-inner {
+    border: 0;
+  }
+  &:focus {
+    outline: 0;
+  }
+}
+
+@mixin styleBtn($variation, $btnType) {
+  box-sizing: border-box;
+  /** @todo - instead of including duplicate values inside the btnColors map simply do a check
+  * here for if a value was returned and then apply the fallback we were expecting
+  * e.g if(focus-border-color doesn't exist) then border-color on focus is same as default state
+   */
+  color: map-get-deep($btnColors, $variation, "#{$btnType}-col");
+  border-color: map-get-deep($btnColors, $variation, "#{$btnType}-border");
+  background-color: map-get-deep($btnColors, $variation, "#{$btnType}-bg");
+  &:not(:disabled):not(.disabled):hover {
+    color: map-get-deep($btnColors, $variation, "#{$btnType}-hover-col");
+    border-color: map-get-deep(
+      $btnColors,
+      $variation,
+      "#{$btnType}-hover-border"
+    );
+    background-color: map-get-deep(
+      $btnColors,
+      $variation,
+      "#{$btnType}-hover-bg"
+    );
+  }
+  &:not(:disabled):not(.disabled):active,
+  &:not(:disabled):not(.disabled).active,
+  .show > &.dropdown-toggle {
+    color: map-get-deep($btnColors, $variation, "#{$btnType}-active-col");
+    border-color: map-get-deep(
+      $btnColors,
+      $variation,
+      "#{$btnType}-active-border"
+    );
+    background-color: map-get-deep(
+      $btnColors,
+      $variation,
+      "#{$btnType}-active-bg"
+    );
+  }
+  &:focus {
+    color: map-get-deep($btnColors, $variation, "#{$btnType}-focus-col");
+    //  border: 2px solid #006FFF;//map-get-deep($btnColors, $variation, "#{$btnType}-focus-border");
+    box-shadow: 0 0 1pt 2pt $blue-60;
+    background-color: map-get-deep(
+      $btnColors,
+      $variation,
+      "#{$btnType}-focus-bg"
+    );
+  }
+}

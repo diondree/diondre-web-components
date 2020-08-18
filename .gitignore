@@ -1,0 +1,41 @@
+# Root
+node_modules/
+**/**/node_modules/
+*~
+*.sw[mnpcod]
+*.log
+*.lock
+*.tmp
+*.tmp.*
+log.txt
+*.sublime-project
+*.sublime-workspace
+.vscode/
+.DS_Store
+Thumbs.db
+UserInterfaceState.xcuserstate
+.env
+package-lock.json
+dist/
+dist-transpiled/
+.sass-cache/
+
+# Core
+www/
+loader/
+
+.stencil/
+.idea/
+.versions/
+$RECYCLE.BIN/
+storybook-static/
+
+# Firebase
+firebase-debug.log*
+
+# Firebase cache
+.firebase/
+# dotenv environment variables file
+.env
+
+# React
